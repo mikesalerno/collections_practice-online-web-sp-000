@@ -15,7 +15,12 @@ def swap_elements(swap)
   return swap
 end
 
-def swap_elements_from_to(array, index, destination_index)
-  array[index], array[destination_index] = array[destination_index], array[index]
-  return array
+def swap_elements_from_to(elements, index_0, index_1)
+  elements[index_0], elements[index_1] = elements[index_1], elements[index_0]
+  return elements
+end
+
+def reverse_array(num)
+  num_new = num.reverse
+  num_new
 end
