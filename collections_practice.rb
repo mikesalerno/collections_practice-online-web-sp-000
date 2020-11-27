@@ -1,9 +1,9 @@
-def sort_array_asc(num)
-  num.sort
+def sort_array_asc(num_a)
+  num_a.sort
 end
 
-def sort_array_desc(num_r)
-  num_r.sort.reverse
+def sort_array_desc(num_d)
+  num_d.sort.reverse
 end
 
 def sort_array_char_count(char)
@@ -13,4 +13,8 @@ end
 def swap_elements(swap)
   swap[1], swap[2] = swap[2], swap[1]
   return swap
+end
+
+def reverse_array(num_r)
+  num_r.sort.reverse
 end
