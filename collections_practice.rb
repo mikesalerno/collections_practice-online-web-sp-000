@@ -24,3 +24,13 @@ def reverse_array(num)
   num_new = num.reverse
   num_new
 end
+
+def kesha_maker(array)
+  kesha = []
+  array.each do |word|
+    word_array = word.split ""
+    word_array[2] = "$"
+    lesha << word_aray.join
+  end
+  kesha
+end
